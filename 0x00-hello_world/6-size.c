@@ -8,7 +8,7 @@
 {
     int charSize = sizeof(char);
     int intSize = sizeof(int);
-    int longSize = sizeof(long int);
+    int longSize = sizeof(long);
     int doubleSize = sizeof(double);
     int floatSize = sizeof(float);
 
