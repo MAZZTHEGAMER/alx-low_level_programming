@@ -1,19 +1,20 @@
-#include "main."h
+#include "main.h"
 /**
-**main-Entrypoint
-**Return:0
-*
-*/
+ * main - print a series of characters to stdout
+ *
+ * Return: 0 if successful
+ *{ '_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+ * Can work with the actual strings or the ASCII values of each character.
+ */
+int main(void)
+{
+char a[] = {95, 112, 117, 116, 99, 104, 97, 114};
+int arr;
 
-int main()
+for (arr = 0; arr < 8; arr++)
 {
-char c[9] = "_putchar";
-int i = 0;
-while (i < 8)	
-{
-_putchar(c[i]);
-i++
+_putchar(a[arr]);
 }
-_putchar ('\n');
-return(0);
+_putchar('\n');
+return (0);
 }
