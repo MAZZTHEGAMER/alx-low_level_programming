@@ -3,7 +3,7 @@
  *print_diagonal -  prints number of diagonals
  *@n: number of diagonals
  * Return: 0 if successful
- *
+ *diagonal is nuts
  */
 void print_diagonal(int n)
 {
