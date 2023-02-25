@@ -1,21 +1,18 @@
 #include <stdio.h>
+
 /**
-* main - entry line
-* @void: no argument
-* Return: alway 0
-*/
+ * main - print prime
+ * Return: 0
+ */
+
 int main(void)
 {
-    long int i, n;
-    i = 612852475143;
-    for (n = 2; n <= i; n++)
-    {
-        if (i % n == 0)
-        {
-            i = i / n;
-            n--;
-        }
-    }
-    printf("%lu\n", n);
-    return (0);
+unsigned long int i = 3, n = 612852475143;
+for (; i < 12057; i += 2)
+{
+while (n % i == 0 && n != i)
+n /= i;
+}
+printf("%lu\n", n);
+return (0);
 }
