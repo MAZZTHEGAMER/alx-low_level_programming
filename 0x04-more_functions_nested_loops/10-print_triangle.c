@@ -3,6 +3,7 @@
  * print_triangle - prints a triangle of height size
  * @size: height of triangle
  * Return: void
+ * crazy triangle
  */
 void print_triangle(int size)
 {
