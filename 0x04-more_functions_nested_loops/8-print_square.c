@@ -2,7 +2,7 @@
 /**
  *print_square - print squares according to argument
  * @size: size of square
- *
+ *square's nuts too
  * Return: 0
  */
 void print_square(int size)
